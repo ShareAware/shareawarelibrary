@@ -1,7 +1,7 @@
 #shareawarelibrary
 =================
 
-Library for integrating shareware functionality.
+##Library for integrating shareware functionality.
 
 ShareAware is a mobile software library supported on Android and iOS devices. Its allows the app developers to implement capabilities in their app to exchange content between users. The library first allows users to establish trust before exchanging any content.
 
