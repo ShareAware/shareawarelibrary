@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ShareWareLibrary"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".ShareWareLibraryActivity" >
+	<TextView
+        android:id="@+id/shareWareIntroTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dip"
+        android:text="@string/shareWareIntro" />
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center_horizontal">
+		<TextView
+	        android:id="@+id/peerTextView"
+	        android:gravity="left|center"
+	        android:layout_width="220dip"
+	        android:layout_height="match_parent"
+	        android:textSize="14dip"
+	        android:text="                " />
+
+		<Button
+		    android:id="@+id/connectButton"
+		    android:layout_width="100dip"
+		    android:layout_height="match_parent"
+		    android:gravity="center"
+   			android:layout_gravity="right"
+		    android:text="Connect"
+		    android:textSize="14dip" />
+			    	    
+	</LinearLayout>
+
+	<ListView
+	    android:layout_marginTop="30dip"
+	    android:id="@android:id/list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:cacheColorHint="#00000000"
+	    android:paddingBottom="10dip"
+	    android:paddingLeft="10dip"
+	    android:paddingRight="10dip" >
+	</ListView>
+    
+    <TextView
+        android:id="@+id/statusLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dip"
+        android:text="Status" />
+
+</LinearLayout>

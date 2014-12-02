@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="oND-g8-8O7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Sample App-->
+        <scene sceneID="2gL-gB-Jyb">
+            <objects>
+                <viewController id="1Yw-9J-VRm" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="26W-iS-6vd"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Ql-d2-2by"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hCV-9k-SST">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egs-hf-q01">
+                                <rect key="frame" x="212" y="105" width="95" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Feature 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpb-dQ-5ta">
+                                <rect key="frame" x="212" y="168" width="95" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Feature 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="194" translatesAutoresizingMaskIntoConstraints="NO" id="pvT-Gs-hLn">
+                                <rect key="frame" x="0.0" y="81" width="194" height="459"/>
+                                <string key="text">This screen demonstrates the list of features, functions and assets that are deemed share worthy which can either be purchased along w/ the app or in-app purchase.
+Or by connecting w/ a benefactor peer for evaluation purposes only. 
+In a purchased version - these buttons will be enabled and each will perform the needful but in a free version these are disabled.
+To enable them temporarily using Share w/ a benefactor in peer - Call to action to Share.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sL7-9t-PRq">
+                                <rect key="frame" x="225" y="235" width="95" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Document 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPc-Dq-Eng">
+                                <rect key="frame" x="216" y="296" width="86" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Asset 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cl4-IT-jal">
+                                <rect key="frame" x="218" y="357" width="88" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QON-pS-cYz">
+                                <rect key="frame" x="218" y="417" width="89" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Video 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewX-rH-Ve2">
+                                <rect key="frame" x="225" y="481" width="77" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Music 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sample App" id="GkH-jn-hX8">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="2KA-Qj-JcC">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Uf5-dy-CuU">
+                                <rect key="frame" x="16" y="8" width="83" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Free"/>
+                                    <segment title="Paid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="handleFreePaidSegControl:" destination="1Yw-9J-VRm" eventType="valueChanged" id="4Bb-R2-EID"/>
+                                </connections>
+                            </segmentedControl>
+                            <connections>
+                                <action selector="handleFreePaidSegControl:" destination="1Yw-9J-VRm" id="j2X-1H-f3A"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="hNr-Og-QlX">
+                            <connections>
+                                <action selector="handleShareButtonItem:" destination="1Yw-9J-VRm" id="kwS-QP-oj1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="asset1Button" destination="kPc-Dq-Eng" id="Xwz-5U-lyX"/>
+                        <outlet property="document1Button" destination="sL7-9t-PRq" id="SIV-vk-LP0"/>
+                        <outlet property="feature1Button" destination="Egs-hf-q01" id="8fq-Xn-Pna"/>
+                        <outlet property="feature2Button" destination="Mpb-dQ-5ta" id="HBK-sb-S1z"/>
+                        <outlet property="image1Button" destination="cl4-IT-jal" id="q2R-hU-5t8"/>
+                        <outlet property="isFreeOrPaidSegControl" destination="Uf5-dy-CuU" id="NZj-fU-Wsu"/>
+                        <outlet property="music1Button" destination="ewX-rH-Ve2" id="MVc-n6-dEJ"/>
+                        <outlet property="shareButtonItem" destination="hNr-Og-QlX" id="U6z-Gg-38W"/>
+                        <outlet property="video1Button" destination="QON-pS-cYz" id="i4I-dQ-Wdf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55f-RK-fo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-107" y="-537"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HqY-Xt-CTl">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="oND-g8-8O7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ULM-CV-6SP">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1Yw-9J-VRm" kind="relationship" relationship="rootViewController" id="NSF-Y1-QjN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="byB-l7-1kL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-494" y="-563"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

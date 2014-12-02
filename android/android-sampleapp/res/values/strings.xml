@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample</string>
+    <string name="action_settings">Share</string>
+    <string name="hello_world">
+        This screen demonstrates the list of features, functions and 
+        assets that are deemed share worthy which can either be purchased along w/ the app or in-app purchase.
+        Or by connecting w/ a benefactor peer for evaluation purposes only. 
+        In a purchased version - these buttons will be enabled and each will perform the needful 
+        but in a free version these are disabled.
+        To enable them temporarily using Share w/ a benefactor in peer - Call to action to Share.
+        </string>
+</resources>

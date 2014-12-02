@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="f1c-MV-1eE">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Sample App-->
+        <scene sceneID="UHC-KO-GC7">
+            <objects>
+                <viewController id="P0w-3T-nbP" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="slU-4Y-Zkn"/>
+                        <viewControllerLayoutGuide type="bottom" id="xaj-tO-diq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="izL-kT-hbL">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsJ-m2-9VG">
+                                <rect key="frame" x="225" y="104" width="65" height="30"/>
+                                <state key="normal" title="Feature 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP8-qm-gdF">
+                                <rect key="frame" x="225" y="168" width="65" height="30"/>
+                                <state key="normal" title="Feature 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="194" translatesAutoresizingMaskIntoConstraints="NO" id="6Go-QU-0Om">
+                                <rect key="frame" x="10" y="81" width="194" height="459"/>
+                                <string key="text">This screen demonstrates the list of features, functions and assets that are deemed share worthy which can either be purchased along w/ the app or in-app purchase.
+Or by connecting w/ a benefactor peer for evaluation purposes only. 
+In a purchased version - these buttons will be enabled and each will perform the needful but in a free version these are disabled.
+To enable them temporarily using Share w/ a benefactor in peer - Call to action to Share.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSB-ZI-uWJ">
+                                <rect key="frame" x="225" y="235" width="84" height="30"/>
+                                <state key="normal" title="Document 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjd-Rq-3is">
+                                <rect key="frame" x="225" y="296" width="52" height="30"/>
+                                <state key="normal" title="Asset 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvT-cg-inW">
+                                <rect key="frame" x="225" y="369" width="55" height="30"/>
+                                <state key="normal" title="Image 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMR-2k-d3o">
+                                <rect key="frame" x="225" y="434" width="52" height="30"/>
+                                <state key="normal" title="Video 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56B-Ko-yhg">
+                                <rect key="frame" x="225" y="503" width="54" height="30"/>
+                                <state key="normal" title="Music 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sample App" id="fWX-Pg-pnp">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="i06-Q1-B0B">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="h2Y-Ra-fI6">
+                                <rect key="frame" x="16" y="8" width="83" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Free"/>
+                                    <segment title="Paid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="handleFreePaidSegControl:" destination="P0w-3T-nbP" eventType="valueChanged" id="PZ8-sA-Gq9"/>
+                                </connections>
+                            </segmentedControl>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="JhM-Ft-arz">
+                            <connections>
+                                <action selector="handleShareButtonItem:" destination="P0w-3T-nbP" id="Bd7-dT-EVe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="asset1Button" destination="Gjd-Rq-3is" id="NUj-Ns-xk2"/>
+                        <outlet property="document1Button" destination="QSB-ZI-uWJ" id="aYG-zY-Lsx"/>
+                        <outlet property="feature1Button" destination="zsJ-m2-9VG" id="Yhz-2S-ioY"/>
+                        <outlet property="feature2Button" destination="pP8-qm-gdF" id="ySl-Zs-XKm"/>
+                        <outlet property="image1Button" destination="QvT-cg-inW" id="o87-lX-fWQ"/>
+                        <outlet property="isFreeOrPaidSegControl" destination="h2Y-Ra-fI6" id="RP9-Fs-Lnd"/>
+                        <outlet property="music1Button" destination="56B-Ko-yhg" id="ZOk-La-8Y2"/>
+                        <outlet property="shareButtonItem" destination="JhM-Ft-arz" id="tjd-sJ-sEU"/>
+                        <outlet property="video1Button" destination="SMR-2k-d3o" id="NvZ-vf-phk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dv9-jf-Xw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-199" y="-795"/>
+        </scene>
+        <!--Share Ware Library View Controller-->
+        <scene sceneID="GTi-AS-OY3">
+            <objects>
+                <viewController storyboardIdentifier="ShareWareLibraryViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1OZ-wz-K2u" customClass="ShareWareLibraryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IRd-z4-15u"/>
+                        <viewControllerLayoutGuide type="bottom" id="xxE-Qu-pEc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H08-zP-yXt">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="259" translatesAutoresizingMaskIntoConstraints="NO" id="e28-hG-uAW">
+                                <rect key="frame" x="12" y="73" width="259" height="175"/>
+                                <string key="text">ShareWareLibraryApp: Sample Application to demonstrate ability to share artifacts, gifts, loaners or assets w/ a peering application.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Peers found" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="211" translatesAutoresizingMaskIntoConstraints="NO" id="9Sr-O0-JgR">
+                                <rect key="frame" x="12" y="205" width="211" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iVT-LW-WI1">
+                                <rect key="frame" x="231" y="205" width="79" height="30"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="connectButtonHandler:" destination="1OZ-wz-K2u" eventType="touchUpInside" id="NuB-X7-Mid"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NW-lk-nCB">
+                                <rect key="frame" x="3" y="983" width="304" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fur-ad-WhE">
+                                <rect key="frame" x="40" y="73" width="231" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="peerSegControlHandler:" destination="1OZ-wz-K2u" eventType="valueChanged" id="EHe-dZ-LVB"/>
+                                </connections>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xjS-Nc-yVp">
+                                <rect key="frame" x="3" y="243" width="319" height="288"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="1OZ-wz-K2u" id="cYp-E4-BOn"/>
+                                    <outlet property="delegate" destination="1OZ-wz-K2u" id="dFK-6m-ev7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ekw-3q-ojz"/>
+                    <connections>
+                        <outlet property="artifactsTableView" destination="xjS-Nc-yVp" id="LZi-ey-PPL"/>
+                        <outlet property="connectButton" destination="iVT-LW-WI1" id="hfq-XJ-0bD"/>
+                        <outlet property="peerFoundLabel" destination="9Sr-O0-JgR" id="6mA-7O-byC"/>
+                        <outlet property="peerSegControl" destination="fur-ad-WhE" id="c7m-VH-wPU"/>
+                        <outlet property="statusLabel" destination="3NW-lk-nCB" id="Pp5-ft-x4T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ajd-kO-RLe" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368" y="461"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Njy-Sr-Alt">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="f1c-MV-1eE" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IW3-5s-V2f">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="P0w-3T-nbP" kind="relationship" relationship="rootViewController" id="XUq-JI-0fC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lfo-jx-C4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1488" y="520"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
