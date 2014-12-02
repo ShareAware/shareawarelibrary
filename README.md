@@ -25,19 +25,19 @@ The sample app has a list of buttons which light up when the user has paid for t
 
 Sample App - Free          | Sample App - Paid
 :-------------------------:|:-------------------------:
-![Sample App - Free](https://raw.github.com/ryanmaxwell/iArrived/master/iOS/screen-shots/SampleApp-Free.png)  |  ![Sample App - Paid](https://raw.github.com/ryanmaxwell/iArrived/master/iOS/screen-shots/SampleApp-Paid.png)
+![Sample App - Free](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/SampleApp-Free.png)  |  ![Sample App - Paid](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/SampleApp-Paid.png)
 
 In the sample app, the 'lit up' (enabled) buttons simply show a dialog if/when they're enabled (if not - they're greyed out). A button is 'lit up' (or enabled) either by default in the Paid version (because the user has paid for it or earned it) or it was requested for by the Free version and allowed by the Donor or Benefactor (the Paid version). 
 
 Sample App - Paid          | Sample App - Paid
 :-------------------------:|:-------------------------:
-![Sample App - Paid](https://raw.github.com/ryanmaxwell/iArrived/master/iOS/screen-shots/SampleApp-Ex1.png)  |  ![Sample App - Paid](https://raw.github.com/ryanmaxwell/iArrived/master/iOS/screen-shots/SampleApp-Ex2.png)
+![Sample App - Paid](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/SampleApp-Ex1.png)  |  ![Sample App - Paid](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/SampleApp-Ex2.png)
 
 The sample also demonstrates the use of the share functionality by a Menu or Button to find peers in the same WIFI network. Upon finding appropriate peers - the two user or players can connect with each other using simple PIN based authentication mechanism. 
 
 Share UI - Free          | Share UI - Paid
 :-------------------------:|:-------------------------:
-![Share UI - Free](https://raw.github.com/ryanmaxwell/iArrived/master/iOS/screen-shots/ShareUI-Free.png)  |  ![Share UI - Paid](https://raw.github.com/ryanmaxwell/iArrived/master/iOS/screen-shots/ShareUI-Paid.png)
+![Share UI - Free](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/ShareUI-Free.png)  |  ![Share UI - Paid](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/ShareUI-Paid.png)
 
 Once the two user or players are connected with each other. The benefactor (the Paid version or the one having these functionalities) can share or allow (or deny) requests coming from the other user.
 
