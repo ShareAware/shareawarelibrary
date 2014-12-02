@@ -41,7 +41,18 @@ Share UI - Free          | Share UI - Paid
 
 Once the two user or players are connected with each other. The benefactor (the Paid version or the one having these functionalities) can share or allow (or deny) requests coming from the other user.
 
+
 Upon receiving grant requests or allowed by the benefactor or paid version of the application - the free-version now is able to realize the same as long as the two are connected or until either one of them revokes or returns the resource.
+
+ShareUI - Free          | ShareUI - Free 
+:-------------------------:|:-------------------------:
+![ShareUI - Free ](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/ShareUI-Free-Req-Granted-1.png)  |  ![ShareUI - Free ](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/ShareUI-Free-Granted-2.png)
+
+Exiting the Share UI and going back to the application the free user will see the buttons 'lite up' and the paid user will/can continue to use the same functions as before
+
+![Sample App - Free](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/SampleApp-Free-Req-Granted.png) 
+
+Upon returning to the app and context - the real features can now be consumed by both the free and paid version.
 
 Sample App - Free          | Sample App - Free
 :-------------------------:|:-------------------------:
