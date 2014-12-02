@@ -57,8 +57,6 @@ Sample App - Free          | Sample App - Paid
 :-------------------------:|:-------------------------:
 ![Sample App - Free ] (https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/SampleApp-Free-Req-Granted.png)  |  ![Sample App - Paid ](https://raw.github.com/ShareAware/shareawarelibrary/master/iOS/screen-shots/ShareUI-Paid-Req-Granted-2.png)
 
-![Sample App - Free]
-
 Upon returning to the app and context - the real features can now be consumed by both the free and paid version.
 
 Sample App - Free          | Sample App - Free
