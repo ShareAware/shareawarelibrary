@@ -82,7 +82,7 @@ The android library is built as a library which would need to be referred to by 
 
 3) Import Library
 
-4) Remember to import ActionBarSherlock and re-do the Library settings to point to current project in Eclipse
+4) There is a dependency which will be removed in ensuing versions on ActionBarSherlock (https://github.com/JakeWharton/ActionBarSherlock). Pls Remember to import ActionBarSherlock and re-do the Library settings to point to current project in Eclipse
 
 5) Import SampleApp
 
